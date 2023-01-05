@@ -10,8 +10,8 @@ var fs = require('fs');
 
 var OUTPUT_FILE = "result.txt";
 var LOGIN_USER = "admin";
-var LOGIN_PWD = "<PIN CODE>";
-var HNAP_URL = "http://192.168.1.128/HNAP1";
+var LOGIN_PWD = "<571802>";
+var HNAP_URL = "http://192.168.1.25/HNAP1";
 var POLLING_INTERVAL = 60000;
 
 soapclient.login(LOGIN_USER, LOGIN_PWD, HNAP_URL).done(function (status) {
